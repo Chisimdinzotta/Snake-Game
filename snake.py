@@ -39,17 +39,6 @@ class Snake:
         self.head.forward(MOVE_DISTANCE)
 
 
-   # def level(self, set_level):
-        #for seg in range(len(self.segments)):
-         # if set_level == "Hard":
-         #     self.segments[seg].speed(10)
-         # elif set_level == "Normal":
-             # self.segments[seg].speed(1)
-          #if set_level == "Easy":
-         # else:
-             # self.segments[seg].speed(1)
-             # time.sleep(0.1)
-
     def delay(self, level):
         for seg in range(len(self.segments)):
           if level == "hard":
